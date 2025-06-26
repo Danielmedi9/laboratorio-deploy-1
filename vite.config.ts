@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react';
 import { TanStackRouterVite } from '@tanstack/router-plugin/vite';
 
 export default defineConfig({
-  base: '/Laboratorio-Cloud-1/',
   envPrefix: 'PUBLIC_',
   plugins: [
     TanStackRouterVite({
